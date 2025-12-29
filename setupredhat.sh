@@ -76,9 +76,9 @@ gen_ipv6() {
 # ===== INSTALL 3PROXY =====
 log "Downloading & compiling 3proxy"
 cd /tmp
-wget https://github.com/z3APA3A/3proxy/archive/refs/tags/0.9.4.tar.gz
-tar xzf 0.9.4.tar.gz
-cd 3proxy-0.9.4
+wget https://github.com/z3APA3A/3proxy/archive/refs/tags/0.9.5.tar.gz
+tar xzf 0.9.5.tar.gz
+cd 3proxy-0.9.5
 make -f Makefile.Linux
 mkdir -p /usr/local/3proxy/{bin,logs}
 cp src/3proxy /usr/local/3proxy/bin/
