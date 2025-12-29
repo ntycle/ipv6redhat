@@ -81,7 +81,7 @@ tar xzf 0.9.5.tar.gz
 cd 3proxy-0.9.5
 make -f Makefile.Linux
 mkdir -p /usr/local/3proxy/{bin,logs}
-cp src/3proxy /usr/local/3proxy/bin/
+cp bin/3proxy /usr/local/3proxy/bin/
 chmod +x /usr/local/3proxy/bin/3proxy
 log "3proxy compiled"
 
